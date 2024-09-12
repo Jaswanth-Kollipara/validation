@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import './index.css'
 
-const Page1 = props =>{
+const Home = props =>{
   const [apiStatus,setApiStatus]=useState({
     name: "",
     email: "",
@@ -194,4 +194,4 @@ const Page1 = props =>{
   return <div className="page1">{renderPersonalView()}</div>
 }
 
-export default Page1
+export default Home

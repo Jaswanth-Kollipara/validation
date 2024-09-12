@@ -9,6 +9,7 @@ import './App.css'
 const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/validation/" component={Home} />
     <Route exact path="/page2" component={Page2} />
     <Route exact path="/page3" component={Page3} />
     <Route exact path="/page4" component={Page4} />

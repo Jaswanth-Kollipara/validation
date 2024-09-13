@@ -278,6 +278,7 @@ const Page2 = props =>{
   }
 
   const onClickBack=()=>{
+        localStorage.setItem('page2', JSON.stringify(apiStatus))
         const {history} = props
         history.push('/')
   }

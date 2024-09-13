@@ -30,7 +30,7 @@ const Page3 = props =>{
             <h1 className="conformation-view-headding">Confirmation:</h1>
             <p className="conformation-view-note">Note: Check all the details before submission. Go back to the previous pages if any changes are required.</p>
             <p className="conformation-view-para">Name          :{name}</p>
-            <p className="conformation-view-para">email         :{email}</p>
+            <p className="conformation-view-para">Email         :{email}</p>
             <p className="conformation-view-para">Phone Number  :{pno}</p>
             <p className="conformation-view-para">Adsress Line 1:{address1}</p>
             <p className="conformation-view-para">Address Line 2:{address2}</p>

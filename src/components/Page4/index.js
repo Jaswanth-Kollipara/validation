@@ -4,6 +4,8 @@ import './index.css'
 const Page4=props=>{
     const onClickHome=()=>{
         const {history} = props
+        localStorage.removeItem('page1')
+        localStorage.removeItem('page2')
         history.push('/')
     }
 

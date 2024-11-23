@@ -255,7 +255,7 @@ const Page2 = props =>{
     )
   }
 
-  const renderSta=()=>{
+  const renderState=()=>{
     const {state,stateError}=apiStatus
     return(
         <div className="address-view-form-inner-container">
@@ -292,7 +292,7 @@ const Page2 = props =>{
             {renderAddressLine1()}
             {renderAddressLine2()}
             {renderCity()}
-            {renderSta()}
+            {renderState()}
             {renderZipCode()}
             <div className="address-view-button-container">
                 <button className="address-view-button" type="button" onClick={onClickBack}>Back</button>

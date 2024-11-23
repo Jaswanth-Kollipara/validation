@@ -148,7 +148,7 @@ const Home = props =>{
     const {name,nameError}=apiStatus
     return(
         <div className="personal-view-form-inner-container">
-            <label id="personal-view-label" htmlFor="personal-view-name">Name*:</label><br/>
+            <label className="personal-view-label" htmlFor="personal-view-name">Name*:</label><br/>
             <input className="personal-view-input" type="text" id="personal-view-name" placeholder="Enter Name" value={name} onChange={onChangename} onBlur={onBlurName}/>
             {nameError && <p className="personal-view-error">Required</p>}
         </div>
@@ -159,7 +159,7 @@ const Home = props =>{
     const {email,emailError}=apiStatus
     return(
         <div className="personal-view-form-inner-container">
-            <label id="personal-view-label" htmlFor="personal-view-email">Email*:</label><br/>
+            <label className="personal-view-label" htmlFor="personal-view-email">Email*:</label><br/>
             <input className="personal-view-input" type="text" id="personal-view-email" placeholder="Enter Email" value={email} onChange={onChangeEmail} onBlur={onBlurEmail}/>
             {emailError && <p className="personal-view-error">Required / Email is not in a right format</p>}
         </div>
@@ -170,7 +170,7 @@ const Home = props =>{
     const {pno,pnoError}=apiStatus
     return(
         <div className="personal-view-form-inner-container">
-            <label id="personal-view-label" htmlFor="personal-view-pno">Phone No*:</label><br/>
+            <label className="personal-view-label" htmlFor="personal-view-pno">Phone No*:</label><br/>
             <input className="personal-view-input" type="text" id="personal-view-pno" placeholder="Enter Phone No" value={pno} onChange={onChangePNo} onBlur={onBlurPNO}/>
             {pnoError && <p className="personal-view-error">Required</p>}
         </div>

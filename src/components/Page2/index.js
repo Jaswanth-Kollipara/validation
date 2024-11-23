@@ -226,7 +226,7 @@ const Page2 = props =>{
     const {address1,address1Error}=apiStatus
     return(
         <div className="address-view-form-inner-container">
-            <label id="address-view-label" htmlFor="address-view-line1">Address line 1*:</label><br/>
+            <label className="address-view-label" htmlFor="address-view-line1">Address line 1*:</label><br/>
             <input className="address-view-input" type="text" id="address-view-line1" placeholder="Enter Address line 1" value={address1} onChange={onChangeAddress1} onBlur={onBlurAddress1}/>
             {address1Error && <p className="address-view-error">Required</p>}
         </div>
@@ -237,7 +237,7 @@ const Page2 = props =>{
     const {address2,address2Error}=apiStatus
     return(
         <div className="address-view-form-inner-container">
-            <label id="address-view-label" htmlFor="address-view-line2">Address line 2*:</label><br/>
+            <label className="address-view-label" htmlFor="address-view-line2">Address line 2*:</label><br/>
             <input className="address-view-input" type="text" id="address-view-line2" placeholder="Enter Address line 2" value={address2} onChange={onChangeAddress2} onBlur={onBlurAddress2}/>
             {address2Error && <p className="address-view-error">Required</p>}
         </div>
@@ -248,7 +248,7 @@ const Page2 = props =>{
     const {city, cityError}=apiStatus
     return(
         <div className="address-view-form-inner-container">
-            <label id="address-view-label" htmlFor="address-view-city">City*:</label><br/>
+            <label className="address-view-label" htmlFor="address-view-city">City*:</label><br/>
             <input className="address-view-input" type="text" id="address-view-city" placeholder="Enter City Name" value={city} onChange={onChangeCity} onBlur={onBlurCity}/>
             {cityError && <p className="address-view-error">Required</p>}
         </div>
@@ -259,7 +259,7 @@ const Page2 = props =>{
     const {state,stateError}=apiStatus
     return(
         <div className="address-view-form-inner-container">
-            <label id="address-view-label" htmlFor="address-view-state">State*:</label><br/>
+            <label className="address-view-label" htmlFor="address-view-state">State*:</label><br/>
             <input className="address-view-input" type="text" id="address-view-state" placeholder="Enter State Name" value={state} onChange={onChangeSta} onBlur={onBlurSta}/>
             {stateError && <p className="address-view-error">Required</p>}
         </div>
@@ -270,7 +270,7 @@ const Page2 = props =>{
     const {zipCode,zipCodeError}=apiStatus
     return(
         <div className="address-view-form-inner-container">
-            <label id="address-view-label" htmlFor="address-view-zip-code">Zip Code*:</label><br/>
+            <label className="address-view-label" htmlFor="address-view-zip-code">Zip Code*:</label><br/>
             <input className="address-view-input" type="text" id="address-view-zip-code" placeholder="Enter Zip Code" value={zipCode} onChange={onChangeZipCode} onBlur={onBlurZipCode}/>
             {zipCodeError && <p className="address-view-error">Required</p>}
         </div>
